@@ -133,7 +133,7 @@ function Page() {
           <header>
         
         <nav>
-            <img src="./react-logo.png" alt="react-image"/>
+            <img src="./react-logo.png" alt="react-image"  width="40px"/>
       
         </nav>
 
@@ -154,5 +154,41 @@ function Page() {
 }
 
 ReactDOM.render(<Page />, document.getElementById("root"))
+
+*/
+
+/*
+
+Quiz!
+
+1. What is a React component?
+
+In React, a component is a reusable, self-contained unit of code that defines a specific part of a user interface. 
+
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+The function name is supposed to be in pascal notation.
+
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
+
+ReactDOM.render(Header(), document.getElementById("root"))
+```
+This Header() is supposed to be in this form <Header />
 
 */
