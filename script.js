@@ -62,3 +62,49 @@ We have small pieces that we can put together to make something
 larger/greater than the individual pieces.
 
 */
+
+/**
+Challenge: 
+
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+ /**
+Challenge: 
+
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+function MyPage() {
+    return (
+       <div>
+   
+    <ul>
+      <li>It is declarative</li>
+      <li>It's component are reusable</li>
+      <li>It is composable</li>
+      <li>It is widely used in companies</li>
+      <li>It has less bugs</li>
+    </ul>
+  </div> 
+    )
+}
+
+
+
+ReactDOM.render(<MyPage />, document.getElementById("root"));
+
+ */
