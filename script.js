@@ -28,9 +28,11 @@ ReactDOM.render(page, document.getElementById("root"));
 
 /* 1. Why do we need to `import React from "react"` in our files?
 So that we can have access to the global React Dom and to import React library to our JavaScript file. 
+React is what defines JSX.
 
 2. If I were to console.log(page) in index.js, what would show up?
-JavaScript Object
+JavaScript Object. React elements that describe what React should
+eventually add to the real DOM for us.
 
 3. What's wrong with this code:
 ```
@@ -39,7 +41,7 @@ const page = (
     <p>This is my website!</p>
 )
 ```
-It has 2 parents 
+It has 2 parents. We need our JSX to be nested under a single parent element
 
 4. What does it mean for something to be "declarative" instead of "imperative"?
 Declarative:
@@ -47,8 +49,16 @@ Declarative:
 What to do: In declarative programming, you focus on describing the desired outcome or result without specifying the step-by-step instructions or details of how to achieve it.
 Imperative:
 
+
 How to do it: In imperative programming, you provide explicit instructions on how to perform a task. You outline the step-by-step procedure and control the flow of execution.
+Declarative means I can tell the computer WHAT to do 
+and expect it to handle the details. Imperative means I need
+to tell it HOW to do each step.
+
 
 5. What does it mean for something to be "composable"?
 n software engineering, "composable" refers to the property of being able to combine smaller, simpler components or building blocks to create more complex systems or functionalities. 
+We have small pieces that we can put together to make something
+larger/greater than the individual pieces.
+
 */
