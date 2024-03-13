@@ -328,4 +328,6 @@ function Navbar(props) {
 
 
 5. What data type is `props` when the component receives it?
-An object! */
+An object!
+This object contains key-value pairs, where the keys are the names of the props, and the values are the data passed from the parent component. 
+*/
