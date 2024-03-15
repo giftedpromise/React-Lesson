@@ -346,3 +346,15 @@ const squares = nums.map(function(num) {
 // console.log(squares)
 
 */
+
+/*
+const names = ["alice", "bob", "charlie", "danielle"];
+// -->        ["Alice", "Bob", "Charlie", "Danielle"]
+// Your code here
+const capitalized = names.map((name) => {
+  return name[0].toUpperCase() + name.slice(1);
+});
+
+console.log(capitalized);
+
+*/
