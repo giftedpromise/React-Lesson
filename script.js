@@ -331,3 +331,18 @@ function Navbar(props) {
 An object!
 This object contains key-value pairs, where the keys are the names of the props, and the values are the data passed from the parent component. 
 */
+
+/*
+Challenge 1:
+Given an array of numbers, return an array of each number, squared
+
+const nums = [1, 2, 3, 4, 5]
+// -->       [1, 4, 9, 16, 25]
+// Your code here
+const squares = nums.map(function(num) {
+    return num * num
+})
+
+// console.log(squares)
+
+*/
