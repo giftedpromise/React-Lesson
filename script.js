@@ -455,3 +455,21 @@ that can be displayed on the page.
 It makes our code more "self-sustaining" - not requiring
 additional changes whenever the data changes.
 */
+
+/*
+Challenge 2:
+Given an array of strings, return an array where 
+the first letter of each string is capitalized
+
+
+const names = ["Ariet", "Bukky", "chisom", "david" "esther"]
+// -->        ["Alice", "Bob", "Charlie", "Danielle"]
+// Your code here
+
+const capitalizedNames = names.map((name) => {
+    return name[0].toUpperCase() + name.slice(1);
+})
+
+console.log(capitalizedNames);
+
+*/
