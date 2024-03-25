@@ -501,3 +501,21 @@ function fullName(firstName, lastName) {
 }
 let element = <h1>Hello, {fullName('Julie', 'Johnson')}</h1>
 */
+
+/*
+Event listener
+import React from "react";
+
+export default function Hello() {
+  function handleClick(event) {
+    event.preventDefault();
+    alert("Hello World");
+  }
+
+  return (
+    <a href="/" onClick={handleClick}>
+      Say Hi
+    </a>
+  );
+}
+*/
