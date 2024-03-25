@@ -492,3 +492,12 @@ export default function App() {
     )
 }
  */
+
+/* let name = 'Josh Perez';
+let element = <h1>Hello, {name}</h1>;
+
+function fullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+let element = <h1>Hello, {fullName('Julie', 'Johnson')}</h1>
+*/
