@@ -581,8 +581,8 @@ function greeting(name) {
         timeOfDay = "night"
     }
     
-    return ``
+   return `Good ${timeOfDay}, ${name}!`
 }
 
-greeting("Bob")
+console.log(greeting("Bob"))
 */
