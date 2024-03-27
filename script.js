@@ -768,3 +768,14 @@ what the new value of state should be.
 Whenever you DO need the previous value to determine the new value
 
 */
+
+/*Conditional (ternary) operator
+So, in simple terms, the conditional (ternary) operator helps us make decisions in code based on whether a condition is true or false, just like choosing between two toys based on an answer to a question.
+const answer = true; // Imagine this is the answer to our question
+
+// If the answer is true (yes), we get a teddy bear. If it's false (no), we get a toy car.
+const toy = answer ? "teddy bear" : "toy car";
+
+console.log(toy); // Output will be "teddy bear"
+
+*/
