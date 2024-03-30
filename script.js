@@ -915,3 +915,34 @@ function FruitList() {
 
 export default FruitList;
 */
+
+/*
+import React, { useState } from 'react';
+
+function FruitList() {
+  const [fruits, setFruits] = useState(['Apple', 'Banana', 'Orange']);
+
+  // Function to remove a fruit from the list
+  const removeFruit = (indexToRemove) => {
+    // Update state by filtering out the fruit at the specified index
+    setFruits(fruits.filter((_, index) => index !== indexToRemove));
+  };
+
+  return (
+    <div>
+      <h1>Fruit List</h1>
+      <ul>
+        { Render each fruit in the array with a button to remove it }
+        {fruits.map((fruit, index) => (
+          <li key={index}>
+            {fruit}{' '}
+            <button onClick={() => removeFruit(index)}>Remove</button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default FruitList;
+*/
