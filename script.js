@@ -883,3 +883,35 @@ function App() {
 ReactDOM.render(<App />, document.getElementById('root'));
 
 */
+
+/*
+import React, { useState } from 'react';
+
+function FruitList() {
+  Define state with an array of fruits
+  const [fruits, setFruits] = useState(['Apple', 'Banana', 'Orange']);
+
+   Function to add a new fruit to the list
+  const addFruit = () => {
+    const newFruit = 'Strawberry';
+    Update state by adding the new fruit to the existing array
+    setFruits([...fruits, newFruit]);
+  };
+
+  return (
+    <div>
+      <h1>Fruit List</h1>
+      <ul>
+        { Render each fruit in the array }
+        {fruits.map((fruit, index) => (
+          <li key={index}>{fruit}</li>
+        ))}
+      </ul>
+      { Button to add a new fruit *}
+      <button onClick={addFruit}>Add Strawberry</button>
+    </div>
+  );
+}
+
+export default FruitList;
+*/
