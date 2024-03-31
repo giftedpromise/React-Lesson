@@ -1037,3 +1037,53 @@ export default function App() {
     )
 }
 */
+/*Example 2
+
+import React, { useState } from 'react';
+
+function ToyBox() {
+  // Define state with an object representing toys
+  const [toys, setToys] = useState({
+    car: { name: 'Toy Car', color: 'Red' },
+    doll: { name: 'Doll', color: 'Blue' },
+    ball: { name: 'Ball', color: 'Green' }
+  });
+
+  // Function to add a new toy to the list
+  const addNewToy = () => {
+    const newToyName = prompt('Enter the name of the new toy:');
+    const newToyColor = prompt('Enter the color of the new toy:');
+    // Update state by adding the new toy to the existing object
+    setToys({ ...toys, [newToyName.toLowerCase()]: { name: newToyName, color: newToyColor } });
+  };
+
+  // Function to remove a toy from the list
+  const removeToy = (toyName) => {
+    // Create a copy of the current toys object
+    const updatedToys = { ...toys };
+    // Remove the specified toy from the copied object
+    delete updatedToys[toyName];
+    // Update state with the modified object
+    setToys(updatedToys);
+  };
+
+  return (
+    <div>
+      <h1>Toy Box</h1>
+      <ul>
+     
+        {Object.keys(toys).map((toyName) => (
+          <li key={toyName}>
+            {toys[toyName].name} - {toys[toyName].color}
+            <button onClick={() => removeToy(toyName)}>Remove</button>
+          </li>
+        ))}
+      </ul>
+    
+      <button onClick={addNewToy}>Add New Toy</button>
+    </div>
+  );
+}
+
+export default ToyBox;
+*/
