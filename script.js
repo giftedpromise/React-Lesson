@@ -1008,13 +1008,7 @@ export default function App() {
         email: "itsmyrealname@example.com",
         isFavorite: false
     })
-    
-    let starIcon = contact.isFavorite ? "star-filled.png" : "star-empty.png"
-    
-    function toggleFavorite() {
-     setContact(prevContact => ({
-         ...prevContact,  isFavorite: !prevContact.isFavorite
-     }))
+   
     }
     
   
