@@ -1092,3 +1092,28 @@ function ToyBox() {
 
 export default ToyBox;
 */
+
+/*
+
+class based components
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      myArray: [] // Initialize an empty array
+    };
+  }
+
+  render() {
+    return (
+      <div>
+      
+      </div>
+    );
+  }
+}
+
+export default MyComponent;
+*/
