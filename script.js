@@ -1117,33 +1117,5 @@ class MyComponent extends Component {
 
 export default MyComponent;
 
-
-function based component
-import React, { useState } from 'react';
-
-function MyComponent() {
-  const [myArray, setMyArray] = useState([]); // Initialize an empty array
-
-  return (
-    <div>
-     import React, { useState } from 'react';
-
-function MyComponent() {
-  const [myArray, setMyArray] = useState([]); // Initialize an empty array
-
-  return (
-    <div>
-   
-    </div>
-  );
-}
-
-export default MyComponent;
-
-    </div>
-  );
-}
-
-export default MyComponent;
-
+function based component 
 */
