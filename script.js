@@ -1199,4 +1199,4 @@ export default function App() {
 }
 
 */
-//React is declarative UI programming
+//React is declarative UI programming. It defines the goals not the step.
