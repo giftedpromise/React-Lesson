@@ -1199,3 +1199,4 @@ export default function App() {
 }
 
 */
+//React is declarative UI programming
