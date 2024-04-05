@@ -1162,6 +1162,14 @@ export default function App() {
 */
 /* import React from "react";
 
+// Count component
+function Count({ number }) {
+  return (
+    <div className="counter--count">
+      <h1>{number}</h1>
+    </div>
+  );
+}
 
 export default function App() {
   const [count, setCount] = React.useState(0);
