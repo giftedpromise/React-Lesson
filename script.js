@@ -1201,3 +1201,7 @@ export default function App() {
 */
 //React is declarative UI programming. It defines the goals not the step.
 //JS is imperative programming that defines the steps and not the goals.
+
+//JAVASCRIPT RECAP
+
+//const userMessage = "Hello world";
