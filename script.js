@@ -1242,3 +1242,29 @@ Instead of
 userName => {
   .....
 }
+
+Please note: 
+
+If your function takes no parameters, parentheses must not be omitted - () => { ... } is the only correct form in that case.
+
+If your function takes more than one parameter, you also must not omit parentheses - userName, userAge => { ... } would be invalid ((userName, userAge) => { ... } is correct)!
+
+2) Omitting function body curly braces
+
+If your arrow function contains no other logic but a return statement, you may omit the curly braces and the return keyword.
+
+Instead of
+
+number => {
+  return 2 * 3;
+}
+
+you could write
+
+number => 2 * 3;
+
+The following code would be invalid:
+
+number => return number * 3; // invalid because return keyword must also be omitted!
+number => if (number === 2) { return 5 }; // invalid because if statements can't be returned
+*/
