@@ -1209,3 +1209,7 @@ export default function App() {
 if (10 === 10) {
   console.log("works");
 }
+
+function greet() {
+  console.log("hello");
+}
