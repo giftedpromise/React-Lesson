@@ -1213,3 +1213,5 @@ if (10 === 10) {
 function greet() {
   console.log("hello");
 }
+
+greet(); //calling the function
