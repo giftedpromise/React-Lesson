@@ -1205,3 +1205,7 @@ export default function App() {
 //JAVASCRIPT RECAP
 
 //const userMessage = "Hello world";
+
+if (10 === 10) {
+  console.log("works");
+}
