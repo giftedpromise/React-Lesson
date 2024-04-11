@@ -1286,3 +1286,9 @@ function transformToObjects(numberArray) {
   // should return an array of objects
   return numberArray.map((number) => ({ val: number }));
 }
+
+const name = ["Ike", "Promise"];
+const fistName = name[0];
+const secondName = name[1];
+
+console.log(secondName);
