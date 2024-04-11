@@ -1304,3 +1304,13 @@ const fruit = ["Orange", "Mango", "Apple"];
 const foodFruit = [...food, ...fruit];
 
 console.log(foodFruit);
+
+const user = {
+  name: "Max",
+  age: 13,
+};
+
+const extendedUser = {
+  isAdmin: true,
+  ...user,
+};
