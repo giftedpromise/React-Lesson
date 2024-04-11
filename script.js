@@ -1328,3 +1328,11 @@ if (password === "Hello") {
 } else {
   console.log("Access denied");
 }
+
+//For loop
+
+const hobbies = ["sports", "cooking", "swimming"];
+
+for (const hobby of hobbies) {
+  console.log(hobby);
+}
