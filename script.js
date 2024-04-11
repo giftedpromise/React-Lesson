@@ -1314,3 +1314,17 @@ const extendedUser = {
   isAdmin: true,
   ...user,
 };
+console.log(extendedUser);
+
+//Conteol structure in Js
+//1. if statetement
+
+const password = prompt("Enter your password.");
+
+if (password === "Hello") {
+  console.log("You are welcome");
+} else if (password === "HELLO") {
+  console.log("YOU ARE WELCOME");
+} else {
+  console.log("Access denied");
+}
