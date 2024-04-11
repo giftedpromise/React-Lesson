@@ -1296,3 +1296,11 @@ console.log(secondName);
 
 const [school, lastName] = ["FGGC", "David"];
 console.log(school);
+
+//Spread operator
+
+const food = ["Rice", "Beans", "yam"];
+const fruit = ["Orange", "Mango", "Apple"];
+const foodFruit = [...food, ...fruit];
+
+console.log(foodFruit);
