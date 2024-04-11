@@ -1287,6 +1287,7 @@ function transformToObjects(numberArray) {
   return numberArray.map((number) => ({ val: number }));
 }
 
+//Destructuring in Js
 const name = ["Ike", "Promise"];
 const fistName = name[0];
 const secondName = name[1];
