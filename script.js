@@ -1293,3 +1293,6 @@ const fistName = name[0];
 const secondName = name[1];
 
 console.log(secondName);
+
+const [school, lastName] = ["FGGC", "David"];
+console.log(school);
