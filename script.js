@@ -1364,3 +1364,31 @@ function App() {
 export default App;
 
 */
+
+/* import React from "react"
+import boxes from "./boxes"
+
+export default function App(props) {
+    const [squares, setSquares] = React.useState(boxes)
+   const darkMode = props.darkMode
+    
+    
+    const color = darkMode ? "#222222" : "#cccccc";
+    // Challenge: use a ternary to determine the backgroundColor.
+    // If darkMode is true, set it to "#222222"
+    // If darkMode is false, set it to "#cccccc"
+    
+    const styles = {
+        backgroundColor: color// You code here
+    }
+    
+    const squareElements = squares.map(square => (
+        <div style={styles} className="box" key={square.id}></div>
+    ))
+    return (
+        <main>
+            {squareElements}
+        </main>
+    )
+}
+*/
