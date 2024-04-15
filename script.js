@@ -1397,7 +1397,3 @@ export default function App(props) {
 let helloWorld = function () {
   console.log("Hello World!");
 };
-
-let helloWorld1 = () => {
-  console.log("Hello World!");
-};
