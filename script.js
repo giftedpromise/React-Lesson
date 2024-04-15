@@ -1393,6 +1393,7 @@ export default function App(props) {
 }
 */
 
+//Anonymous function
 let helloWorld = function () {
   console.log("Hello World!");
 };
