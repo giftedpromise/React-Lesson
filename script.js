@@ -1410,7 +1410,9 @@ import boxes from "./boxes"
 export default function App() {
     const [squares, setSquares] = React.useState(boxes)
     
-   
+    const squareElements = squares.map(square => (
+        <div className="box" key={square.id}></div>
+    ))
    
      * Challenge part 1:
      * 1. Initialize state with the default value of the
