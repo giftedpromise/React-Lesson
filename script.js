@@ -1489,7 +1489,21 @@ function App() {
     user.name = name;
   }
 
-  
+  return (
+    <div id="app">
+      <h1>User Login</h1>
+      <p>
+        <label>Name</label>
+       
+        <input type="text" />
+      </p>
+
+      
+      <p id="actions">
+        <button onClick = {() => handleCreateUser("Max")}>Create User</button>
+      </p>
+    </div>
+  );
 }
 
 export default App;
